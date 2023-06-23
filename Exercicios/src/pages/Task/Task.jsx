@@ -1,3 +1,4 @@
+import Formulario from "../../Components/TasksComponents/Form/Formulario"
 import ToDo from "../../Components/TasksComponents/ToDO/Todo"
 
 function Task (){
@@ -10,6 +11,7 @@ function Task (){
         <>
         <h2>Tarefas</h2>
         <ToDo tarefas={tarefas}/>
+        <Formulario/>
         </>
     )
 }
