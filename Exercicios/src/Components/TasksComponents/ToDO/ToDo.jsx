@@ -1,13 +1,18 @@
-//Exercicio 02
-function ToDo ({ tarefas }) { //Exercicio04
+/* eslint-disable react/prop-types */
+// Exercício 2
+
+function ToDo({ tarefas }) { // Exercício 4 (props)
+    
     return (
-        //Exercicio 03
+        // Exercício 3
         <div>
             <ul>
-        {/* Exercicio05 */}
-        {tarefas.map(item => {
-            return <li key={item}>{item}</li>
-        })}
+                {/* <li>Tarefa 1</li>
+                <li>Tarefa 2</li> */}
+                {/* Exercío 5 */}
+                {tarefas.map(item => {
+                    return <li key={item}>{item}</li>
+                })}
             </ul>
         </div>
     )
