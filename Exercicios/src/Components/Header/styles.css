@@ -3,6 +3,7 @@
     list-style-type: none;
     justify-content: flex-end;
     padding: 30px 40px;
+    text-align: center;
 }
 
 .menu-header li {

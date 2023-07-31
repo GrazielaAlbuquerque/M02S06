@@ -1,14 +1,14 @@
-function ComponenteFilho({ callback }) {
+// function ComponenteFilho({ callback }) {
 
-    const handleClick = () => {
-        callback('Mensagem do componente filho.')      
-    }
+//     const handleClick = () => {
+//         callback('Mensagem do componente filho.')      
+//     }
 
-    return (
-        <>
-            <button onClick={handleClick}>Clique Aqui</button>
-        </>
-    )
-}
+//     return (
+//         <>
+//             <button onClick={handleClick}>Clique Aqui</button>
+//         </>
+//     )
+// }
 
-export default ComponenteFilho
+// export default ComponenteFilho

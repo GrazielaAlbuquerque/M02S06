@@ -1,5 +1,5 @@
 import {
-  BrowserRouter as Router, // Apenas renomeando BrowserRouter para Router
+  BrowserRouter as Router,
   Routes,
   Route
 } from 'react-router-dom'
@@ -7,6 +7,7 @@ import './App.css'
 import Home from './pages/Home/Home'
 import Header from './Components/Header/Header.jsx'
 import Task from './pages/Task-Semana06/Task.jsx'
+
 
 function App() {
 

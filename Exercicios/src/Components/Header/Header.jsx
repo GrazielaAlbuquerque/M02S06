@@ -12,10 +12,6 @@ function Header() {
         </li>
 
         <li className="menu-item">
-          <NavLink to="login">Login</NavLink>
-        </li>
-
-        <li className="menu-item">
           <NavLink to="semana-06">Lista de Tarefas</NavLink>
         </li>
 
